@@ -1,1 +1,4 @@
-In this project you DESIGN and implement a set of classes that define various courses in your curriculum.  Include information about each course, such as its title, number, and description and the department that teaches the course. Consider the categories of classes that make up your curriculum when you designing your inheritance structure. Create a driver class to instantiate and execute several classes.
+In this project you DESIGN and implement a set of classes that define various courses in your curriculum.  
+Include information about each course, such as its title, number, and description and the department that teaches the course. 
+Consider the categories of classes that make up your curriculum when you designing your inheritance structure. 
+Create a driver class to instantiate and execute several classes.
