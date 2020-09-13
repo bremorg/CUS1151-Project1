@@ -6,7 +6,7 @@ public class MajorCourse extends Course
     private String requisite;
 
     //----------------------------------------------------------------
-    //  Sets up a major course with the specified information (imp cosntructor )
+    //  Sets up a major course with the specified information (imp constructor )
     //----------------------------------------------------------------
     public MajorCourse(String title, String number, 
             String description, String department, 

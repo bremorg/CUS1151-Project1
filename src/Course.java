@@ -1,7 +1,7 @@
 
 abstract public class Course
 {
-    // assume course has follwing basic informations
+    // assume course has following basic informations
     private String title;
     private String number;
     private String description;

@@ -5,8 +5,7 @@ public class GeneralEducation extends Course
     private String requirement;
 
     //----------------------------------------------------------------
-    //  Sets up a general education course with the specified
-    //  information.
+    //  Sets up a general education course with the specified information.
     //----------------------------------------------------------------
     public GeneralEducation(String title, String number, String description, String department, String requirement)
     {

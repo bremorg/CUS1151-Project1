@@ -4,8 +4,8 @@ public class Elective extends Course
 {
     //----------------------------------------------------------------
     //  Sets up an elective course with the specified information.
-    // create a constroctor to instantoiate elective courses.
-    // implement toString method (return the inofrmation of elective course)
+    // create a constructor to instantiate elective courses.
+    // implement toString method (return the information of elective course)
     //----------------------------------------------------------------
     public Elective(String title, String number, String description, String department) //to do :paramenters
     {
