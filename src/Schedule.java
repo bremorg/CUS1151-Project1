@@ -20,6 +20,10 @@ public class Schedule
     //-----------------------------------------------------------------
     public void display()
     {
-        // to do
+        for(Course course : courseList) 
+        {
+        	System.out.println(course.toString());
+        	//change later as needed
+        }
     }
 }

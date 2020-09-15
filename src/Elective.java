@@ -9,7 +9,7 @@ public class Elective extends Course
     //----------------------------------------------------------------
     public Elective(String title, String number, String description, String department) //to do :paramenters
     {
-        super(title,number,description,department);// to do
+        super(title,number,description,department);
     }
 
     //-----------------------------------------------------------------
@@ -17,7 +17,6 @@ public class Elective extends Course
     //-----------------------------------------------------------------
     public String toString()
     {
-    	return null;
-        //to do
+    	return super.toString();
     }
 }

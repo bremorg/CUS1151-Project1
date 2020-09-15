@@ -19,8 +19,7 @@ public class GeneralEducation extends Course
     public String toString()
     {
         String result = super.toString();
-        result += "\nGeneral Education Requirement Filled: " + 
-                requirement;
+        result += "\nGeneral Education Requirement Filled: " + requirement;
         return result;
     }
 }

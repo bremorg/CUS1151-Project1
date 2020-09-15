@@ -12,10 +12,9 @@ public class MajorCourse extends Course
             String description, String department, 
             String major, String requisite)
     {
-    	 super(title,number,description,department);// to do
+    	 super(title,number,description,department);
     	 this.major = major;
     	 this.requisite = requisite;
-        // to do: Hint, note this class is subclass of Course class
     }
 
     //----------------------------------------------------------------
@@ -23,7 +22,24 @@ public class MajorCourse extends Course
     //----------------------------------------------------------------
     public String toString()
     {
-    	return null;
-       // to do
+    	String result = super.toString();
+    	result = result + (String.format("Major: %s\n", this.major)) + (String.format("Requires: %s\n", this.requisite));
+    	return result;
     }
+    //Getters and setters
+	public String getMajor() {
+		return major;
+	}
+
+	public void setMajor(String major) {
+		this.major = major;
+	}
+
+	public String getRequisite() {
+		return requisite;
+	}
+
+	public void setRequisite(String requisite) {
+		this.requisite = requisite;
+	}
 }
