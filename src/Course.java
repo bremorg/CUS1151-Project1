@@ -1,3 +1,9 @@
+/**
+ * Outline for an academic course.
+ * 
+ * @author Ice Lin
+ *
+ */
 
 abstract public class Course
 {
@@ -13,14 +19,16 @@ abstract public class Course
     public Course(String title, String number, String description,
             String department)
     {
-        // to do
+        this.title = title;
+        this.number = number;
+        this.description = description;
+        this.department = department;
     }
     //-----------------------------------------------------------------
     //  Returns a string including the basic course information.
     //-----------------------------------------------------------------
     public String toString()
     {
-    	return null;
-        // to do
+    	return "Title: " + this.title + "\n" + "Number: " + this.number + "\n" + "Description: " + this.description + "\n" + "Department: " + this.department + "\n" + "~" + "\n";
     }
 }
