@@ -9,8 +9,8 @@ public class GeneralEducation extends Course
     //----------------------------------------------------------------
     public GeneralEducation(String title, String number, String description, String department, String requirement)
     {
-    	 super(title,number,description,department);// to do
-        // to do: hint, this is subclass of course class.
+    	 super(title,number,description,department);
+    	 this.requirement = requirement;
     }
 
     //----------------------------------------------------------------
@@ -19,7 +19,7 @@ public class GeneralEducation extends Course
     public String toString()
     {
         String result = super.toString();
-        result += "\nGeneral Education Requirement Filled: " + requirement;
+        result += "General Education Requirement Filled: " + requirement + "\n";
         return result;
     }
 }
